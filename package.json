@@ -1,6 +1,6 @@
 {
   "name": "ges-react",
-  "version": "1.14.0",
+  "version": "1.15.0",
   "private": true,
   "dependencies": {
     "@overwolf/types": "^3.22.0",
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && gulp build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
